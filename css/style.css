@@ -148,8 +148,4 @@ section:nth-child(even) .container .content{
         margin-left: 550px;
         font-size: 1em;
     }
-
-    body:before{
-        font-size: 10em;
-    }
 }
