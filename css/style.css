@@ -87,3 +87,69 @@ section .container .content{
 section:nth-child(even) .container .content{
     left: 0;
 }
+
+
+/* Responsive */
+
+@media (max-width: 1300px){
+    
+}
+
+@media (max-width: 950px){
+    section .container .content{
+        right: 90px;
+    }
+
+    
+
+    section:nth-child(even) .container .content{
+        left: 90px;
+    }
+    
+}
+
+@media (max-width: 700px){
+    section .container .content{
+        margin-right: 100px;
+        margin-left: 100px;
+        max-width: 50%;
+    }
+
+    section h2{
+        margin-left: 350px;
+        font-size: 3.2em;
+    }
+}
+
+@media (max-width: 500px){
+    section .container .content{
+        margin-right: 155px;
+        margin-left: 155px;
+    }
+
+    section h2{
+        margin-left: 400px;
+        font-size: 2em;
+    }
+
+    body:before{
+        font-size: 10em;
+    }
+}
+
+@media (max-width: 400px){
+    section .container .content{
+        margin-right: 165px;
+        margin-left: 165px;
+        max-width: 45%;
+    }
+
+    section h2{
+        margin-left: 550px;
+        font-size: 1em;
+    }
+
+    body:before{
+        font-size: 10em;
+    }
+}
