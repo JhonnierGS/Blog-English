@@ -9,7 +9,7 @@
 
 body{
     background: #111;
-    padding-bottom: 300px;
+    padding-bottom: 0px;
     overflow-x: hidden;
 }
 
@@ -147,9 +147,5 @@ section:nth-child(even) .container .content{
     section h2{
         margin-left: 550px;
         font-size: 1em;
-    }
-
-    body:before{
-        font-size: 10em;
     }
 }
